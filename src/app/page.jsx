@@ -4,13 +4,9 @@ import Scrollspy from "./components/scrollspy";
 import TwinkleStar from "./components/twinkle-star";
 
 export default function Home() {
-  const array = [...Array(300)];
   return (
-    <div className=" bg-slate-900">
-      {array.map((_) => (
-        <TwinkleStar />
-      ))}
-
+    <div className="bg-slate-900">
+      <TwinkleStar />
       <div className="bg-gradient-to-tl from-blue-600/[.1] via-transparent to-purple-400/[.1]">
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 ">
           <div className="lg:flex lg:justify-between lg:gap-4 selection:bg-violet-500 selection:text-slate-100">
@@ -178,6 +174,15 @@ export default function Home() {
                     rel="noreferrer"
                   >
                     Brittany Chiang
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="https://tailwindcomponents.com/component/landing-page-with-twinkling-stars"
+                    className="font-medium text-slate-400 hover:text-violet-500 focus-visible:text-violet-600"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Icesofty
                   </a>
                   . Built with{" "}
                   <a
