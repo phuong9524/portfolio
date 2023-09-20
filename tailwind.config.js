@@ -14,14 +14,34 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        twinkle: {
+          "0%": {
+            transform: "scale(1, 1)",
+            background: "rgba(255, 255, 255, 0)",
+            transitionTimingFunction: "linear",
+          },
+          "40%": {
+            transform: "scale(0.8, 0.8)",
+            background: "rgba(255, 255, 255, 1)",
+            transitionTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
+          "80%": {
+            background: "rgba(255, 255, 255, 0)",
+            transform: "scale(1, 1)",
+          },
+          "100%": {
+            background: "rgba(255, 255, 255, 0)",
+            transform: "scale(1, 1)",
+          },
+        },
+      },
+      animation: {
+        twinkle: `twinkle ${Math.random() * 5 + 5}s linear ${
+          Math.random() * 1 + 1
+        }s infinite `,
+      },
     },
-    // colors: {
-    //   "light-blue": "#5fd0d0",
-    //   "moss-green": "#4b9566",
-    //   "light-green": "#9df6c7",
-    //   blue: "#20328b",
-    //   "bright-blue": "#9bfafc",
-    // },
   },
   plugins: [require("preline/plugin")],
 };
