@@ -16,11 +16,10 @@ export default function Home() {
                 <h1 className="text-2xl font-bold sm:text-4xl">
                   I'm Do Nguyen Phuong
                 </h1>
-                <h2 className="text-xl">A Web Developer</h2>
+                <h2 className="text-xl">Front-End & Back-End Developer</h2>
                 <p className=" max-w-xs leading-normal text-slate-400">
-                  I'm a passionate and dedicated web developer who specializes
-                  in creating modern, user-friendly, and well-optimized
-                  websites.
+                  I'm a passionate and dedicated developer who specializes in
+                  creating modern, user-friendly, and well-optimized websites.
                 </p>
                 <div>
                   <a
@@ -47,6 +46,8 @@ export default function Home() {
                 <a
                   className="block hover:text-slate-300 text-slate-400"
                   href="https://github.com/phuong9524"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -61,6 +62,8 @@ export default function Home() {
                 <a
                   className="block hover:text-slate-300 text-slate-400"
                   href="https://www.linkedin.com/in/phuong9524/"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,9 +115,9 @@ export default function Home() {
                     <CardExperience
                       startOn="Sep"
                       endOn="Dec 2022"
-                      position="Intern Fullstack developer"
+                      position="Intern Fullstack Developer"
                       company="NashTech"
-                      describe="Intern as a fullstack developer with Spring and React, learn communication english, Srum, testing with unit test and integration test. Join in a simulation project as a fullstack developer with QC, PM, PO and Scrum Master."
+                      describe="Intern as a full-stack developer, utilizing Spring and React technologies. Focus on improving English communication skills, and gaining experience in Scrum methodologies and testing, including unit testing and integration testing. Participate in a simulation project as a full-stack developer, collaborating with Quality Control (QC), Project Manager (PM), Product Owner (PO), and Scrum Master (SM) roles."
                       skills={[
                         "Java",
                         "Spring Boot",
@@ -137,6 +140,7 @@ export default function Home() {
                           "https://res.cloudinary.com/dwsae4gmt/image/upload/v1695148301/image1_lhvapl.png"
                         }
                         title="E-commerce website for pharmaceutical company"
+                        link="https://github.com/phuong9524/e-commerce-website-for-pharmaceutical-company"
                         describe="An e-commerce website for pharmaceutical products. Buying and selling pharmaceutical products, managing customer information, products, orders, and employee management"
                         skills={[
                           ".NET",
@@ -153,6 +157,7 @@ export default function Home() {
                           "https://res.cloudinary.com/dwsae4gmt/image/upload/v1695146085/US8_AC1_xzwfho.png"
                         }
                         title="Asset Management"
+                        link="https://github.com/phuong9524/simulation-project-manage-asset"
                         describe="A company asset management page. The functionalities include employee management, asset management, creating asset registration sessions for employees, creating asset return requests, managing asset return requests, and generating asset registration statistics."
                         skills={[
                           "Spring Boot",
