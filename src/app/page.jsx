@@ -18,7 +18,7 @@ export default function Home() {
                 </h1>
                 <h2 className="text-xl">Front-End & Back-End Developer</h2>
                 <p className=" max-w-xs leading-normal text-slate-400">
-                  I'm a passionate and dedicated developer who specializes in
+                  I'm a passionate and dedicated developer who focuses on
                   creating modern, user-friendly, and well-optimized websites.
                 </p>
                 <div>
