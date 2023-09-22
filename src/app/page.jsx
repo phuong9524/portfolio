@@ -24,7 +24,7 @@ export default function Home() {
                 <div>
                   <a
                     className=" text-slate-200 font-semibold hover:text-violet-500 items-center gap-1 group inline-flex"
-                    href="/CV.pdf"
+                    href="/cv.pdf"
                     aria-label="View Full CV"
                   >
                     <span>View Full CV</span>
