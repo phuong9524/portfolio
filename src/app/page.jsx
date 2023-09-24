@@ -26,6 +26,8 @@ export default function Home() {
                     className=" text-slate-200 font-semibold hover:text-violet-500 items-center gap-1 group inline-flex"
                     href="/cv.pdf"
                     aria-label="View Full CV"
+                    target="_blank"
+                    rel="noreferrer noopener"
                   >
                     <span>View Full CV</span>
                     <svg
