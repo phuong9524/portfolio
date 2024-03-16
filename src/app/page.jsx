@@ -119,7 +119,7 @@ export default function Home() {
                       endOn="Dec 2022"
                       position="Intern Fullstack Developer"
                       company="NashTech"
-                      describe="Intern as a full-stack developer, utilizing Spring and React technologies. Focus on improving English communication skills, and gaining experience in Scrum methodologies and testing, including unit testing and integration testing. Participate in a simulation project as a full-stack developer, collaborating with Quality Control (QC), Project Manager (PM), Product Owner (PO), and Scrum Master (SM) roles."
+                      describe="Intern as a full-stack developer, utilizing Spring and React technologies. Focus on improving English communication skills, soft skills, Git, SQL performance, gaining experience in Scrum methodologies, and testing (including unit testing and integration testing). Participate in a simulation project as a full-stack developer, collaborating with Quality Control (QC), Project Manager (PM), Product Owner (PO), and Scrum Master (SM)."
                       skills={[
                         "Java",
                         "Spring Boot",
